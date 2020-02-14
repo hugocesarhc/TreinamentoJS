@@ -7,9 +7,25 @@
     <script>
         document.write("<p style='color:#f00'testar sempre<br>Curso de JS</p>");
         
-        var canal=null;
+        var canal=12;
+        const separador ="-";
+        const quebra="\n";
         
         document.write(canal);
+        
+        window.alert("Teste do teste"); // o comando alert vem do comando window, assim como prompt e confirm, assim eu não preciso sempre colocar window.
+        
+        var nome = prompt("Digite seu nome: ","Seu nome aqui");
+        document.write(nome);
+        
+        var res=confirm("Deseja continuar?");
+        document.write(res);
+        
+        if(teste lógico){
+          //true = 1
+          //false = 0
+        
+        }
         
         
     </script>
